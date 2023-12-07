@@ -1,7 +1,7 @@
 body {
     font-family:Geneva, "Lucida Sans", Verdana, sans-serif;
     background-color: antiquewhite;
-    margin:0;
+    margin:0 auto;
 }
 
 h1 {
@@ -12,7 +12,8 @@ h1 {
     margin-bottom: 30px;
 }
 li {
-    margin: 0 60px;
+    margin: 0 auto;
+    display: inline-block;
 }
 
 li, a {
@@ -20,15 +21,24 @@ li, a {
     color: rgb(209, 78, 78);
     text-decoration: none;
     padding:5px;
-
+    text-align: center;
 }
 
-li:hover, a:hover {
+a:hover, li:hover {
     color: blueviolet;
 }
 
 .julienne, .gyro, .shrims{
-    border:solid 1px rgb(128, 43, 0);
-    display:block;
-    margin: 10px 0
+    border: solid 1px rgb(128, 43, 0);
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+    background-color: rgba(156, 152, 175, 0.58);
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 }
